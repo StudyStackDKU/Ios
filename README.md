@@ -13,8 +13,9 @@
 ![캡처2](https://user-images.githubusercontent.com/41707077/95018338-0dbaac80-069a-11eb-9806-126ec912fbd3.PNG)
 
 ### Chapter4 - 7번 문제 결과 스샷
-완성하지 못함.... Chapter4 제대로 동작하지 않아서 다시 작성중  
-![캡처3](https://user-images.githubusercontent.com/41707077/95018340-0eebd980-069a-11eb-9bb2-94f3b2e4f3d6.PNG)
+완성하지 못함.... Chapter4 제대로 동작하지 않아서 다시 작성중 --> 해결 완료 
+![mission7](https://user-images.githubusercontent.com/41707077/95667740-23056e80-0ba5-11eb-9f66-5269aaaa8f35.png)
+
 
 
 
