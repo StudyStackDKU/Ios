@@ -124,8 +124,7 @@ func decideFunction(_ feet: Bool) -> (Float) -> Float {
         return toYards
     }
 }
-    }
-}
+
 
 /*:
  ## 10. 클로저 표현식
@@ -146,11 +145,11 @@ let multiply = { (_ val1: Int, _ val2: Int) -> Int in // 클로저 표현식(2)
  */
 func functionA() -> () -> Int {
     var counter = 0
-    func function B() -> Int { // 카운터 변수를 잡고있으므로 클로저로 간주됨
+    func functionB() -> Int { // 카운터 변수를 잡고있으므로 클로저로 간주됨
         return counter + 10
     }
     return functionB
 }
 let myClosure = functionA() // functionB를 반환: 클로저를 반환함
-let result = myClosure() // functionB의 결과를 반환
+let closureResult = myClosure() // functionB의 결과를 반환
 
