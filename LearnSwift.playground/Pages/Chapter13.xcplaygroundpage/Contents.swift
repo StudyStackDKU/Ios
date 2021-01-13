@@ -86,7 +86,7 @@ demo.value = 250
 print(demo.value)
 
 //: 여러 타입과 함께 작업하도록 구현
-// 현재 프로퍼티 래퍼 목적은 비교 작업: **Foundation 프레임워크**에 포함된 **Comparable 프로토콜**을 따르는 모든 데이터 타입 지원케 수정
+//: 현재 프로퍼티 래퍼 목적은 비교 작업: **Foundation 프레임워크**에 포함된 **Comparable 프로토콜**을 따르는 모든 데이터 타입 지원케 수정
 @propertyWrapper
 struct MinMaxVal2<V: Comparable> { // Comparable 프로토콜을 따르는 모든 타입에도 사용 가능
     var value: V
