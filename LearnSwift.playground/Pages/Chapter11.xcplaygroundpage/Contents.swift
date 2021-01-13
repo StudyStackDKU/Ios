@@ -87,5 +87,5 @@ extension Double {
         return self*self*self
     }
 }
-print(3.0.squared) // 확장한 연산 프로퍼티를 상속 없이 사용 가능
+print(3.0.sqared) // 확장한 연산 프로퍼티를 상속 없이 사용 가능
 print(6.0.cubed)
